@@ -37,7 +37,7 @@ body {
 }
 
 .container {
-  background-color: var(--color-light-grayish-violet);
+  background-color: var(--color-white);
   position: relative;
   min-height: 100vh;
   width: 100%;
@@ -84,7 +84,7 @@ body {
   border-top-left-radius: 1000px;
   border-top-right-radius: 1000px;
   background-image: linear-gradient(var(--color-light-violet), var(--color-light-magenta));
-  opacity: .05;
+  opacity: .03;
   position: absolute;
   right: 0;
   top: 15%;
