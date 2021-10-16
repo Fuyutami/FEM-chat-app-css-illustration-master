@@ -9,6 +9,7 @@
   --color-light-magenta: hsl(293, 100%, 63%);
   --color-light-violet: hsl(264, 100%, 61%);
   --color-white: hsl(0, 0%, 100%);
+  --color-gray: #FAFAFA;
   --color-light-grayish-violet: hsl(270, 20%, 96%);
   --color-very-dark-desaturated-violet: hsl(271, 36%, 24%);
   --color-very-light-magenta: hsl(289, 100%, 72%);
@@ -37,7 +38,7 @@ body {
 }
 
 .container {
-  background-color: var(--color-white);
+  background-color: var(--color-gray);
   position: relative;
   min-height: 100vh;
   width: 100%;
@@ -378,7 +379,7 @@ body {
 .about__heading {
   font-size: 4rem;
   font-weight: var(--font-weight-medium);
-  color: var(--color-desaturated-dark-violet);
+  color: var(--color-very-dark-desaturated-violet);
   margin-bottom: 2.5rem;
 }
 
